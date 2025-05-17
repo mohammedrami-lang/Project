@@ -1,0 +1,400 @@
+abseiling -> descente en rappel 🧗
+air drumming -> faire de la batterie dans l'air 🥁
+answering questions -> répondre aux questions 🙋‍♀️
+applauding -> applaudir 👏
+applying cream -> appliquer de la crème 🧴
+archery -> tir à l'arc 🏹
+arm wrestling -> bras de fer 💪
+arranging flowers -> arranger des fleurs 💐
+assembling computer -> assembler un ordinateur 💻
+auctioning -> vendre aux enchères 💰
+baby waking up -> bébé qui se réveille 👶
+baking cookies -> faire des cookies 🍪
+balloon blowing -> gonfler un ballon 🎈
+bandaging -> bander 🩹
+barbequing -> faire un barbecue 🍖
+bartending -> être barman 🍹
+beatboxing -> beatbox 🎤
+bee keeping -> apiculture 🐝
+belly dancing -> danse du ventre 💃
+bench pressing -> développé couché 🏋️‍♂️
+bending back -> se pencher en arrière 🤸
+bending metal -> plier du métal 🛠️
+biking through snow -> faire du vélo dans la neige 🚴‍♀️
+blasting sand -> sablage ⚙️
+blowing glass -> soufflage de verre 🏺
+blowing leaves -> souffler les feuilles 🍂
+blowing nose -> se moucher 🤧
+blowing out candles -> souffler des bougies 🎂
+bobsledding -> bobsleigh 🛷
+bookbinding -> reliure 📖
+bouncing on trampoline -> rebondir sur un trampoline 🤸‍♀️
+bowling -> bowling 🎳
+braiding hair -> tresser les cheveux 👧
+breading or breadcrumbing -> paner 🍞
+breakdancing -> breakdance 🕺
+brush painting -> peindre au pinceau 🎨
+brushing hair -> se brosser les cheveux 🪥
+brushing teeth -> se brosser les dents 🦷
+building cabinet -> construire un meuble 🗄️
+building shed -> construire un abri de jardin 🛖
+bungee jumping -> saut à l'élastique 🪢
+busking -> faire la manche 🎶
+canoeing or kayaking -> faire du canoë ou du kayak 🛶
+capoeira -> capoeira 🤸‍♂️
+carrying baby -> porter un bébé 🤱
+cartwheeling -> faire la roue 🤸‍♀️
+carving pumpkin -> sculpter une citrouille 🎃
+catching fish -> pêcher 🎣
+catching or throwing baseball -> attraper ou lancer une balle de baseball ⚾
+catching or throwing frisbee -> attraper ou lancer un frisbee 🥏
+catching or throwing softball -> attraper ou lancer une balle de softball 🥎
+celebrating -> célébrer 🎉
+changing oil -> faire la vidange 🛢️
+changing wheel -> changer une roue ⚙️
+checking tires -> vérifier les pneus 🚗
+cheerleading -> cheerleading 📣
+chopping wood -> couper du bois 🪓
+clapping -> applaudir 👏
+clay pottery making -> faire de la poterie 🏺
+clean and jerk -> épaulé-jeté 🏋️‍♂️
+cleaning floor -> nettoyer le sol 🧹
+cleaning gutters -> nettoyer les gouttières 🌧️
+cleaning pool -> nettoyer la piscine 🏊‍♀️
+cleaning shoes -> nettoyer les chaussures 👞
+cleaning toilet -> nettoyer les toilettes 🚽
+cleaning windows -> nettoyer les fenêtres 🧽
+climbing a rope -> grimper à une corde 🧗‍♀️
+climbing ladder -> grimper à une échelle 🪜
+climbing tree -> grimper à un arbre 🌳
+contact juggling -> jonglerie de contact 🤹
+cooking chicken -> cuisiner du poulet 🐔
+cooking egg -> cuire un œuf 🍳
+cooking on campfire -> cuisiner sur un feu de camp 🔥
+cooking sausages -> cuire des saucisses 🌭
+counting money -> compter de l'argent 💰
+country line dancing -> danse country en ligne 🤠
+cracking neck -> faire craquer son cou 🤕
+crawling baby -> bébé qui rampe 👶
+crossing river -> traverser une rivière 🏞️
+crying -> pleurer 😭
+curling hair -> boucler les cheveux 👩‍🦱
+cutting nails -> se couper les ongles 💅
+cutting pineapple -> couper un ananas 🍍
+cutting watermelon -> couper une pastèque 🍉
+dancing ballet -> danser le ballet 🩰
+dancing charleston -> danser le charleston 💃
+dancing gangnam style -> danser le gangnam style 🕺
+dancing macarena -> danser la macarena 💃
+deadlifting -> soulevé de terre 🏋️‍♂️
+decorating the christmas tree -> décorer le sapin de Noël 🎄
+digging -> creuser ⛏️
+dining -> dîner 🍽️
+disc golfing -> golf sur disque 🥏
+diving cliff -> plonger d'une falaise 🤿
+dodgeball -> balle au prisonnier ⛹️‍♀️
+doing aerobics -> faire de l'aérobic 🤸‍♀️
+doing laundry -> faire la lessive 🧺
+doing nails -> faire ses ongles 💅
+drawing -> dessiner ✍️
+dribbling basketball -> dribbler au basket-ball 🏀
+drinking -> boire 🥤
+drinking beer -> boire de la bière 🍺
+drinking shots -> boire des shots 🥃
+driving car -> conduire une voiture 🚗
+driving tractor -> conduire un tracteur 🚜
+drop kicking -> drop kick 🦵
+drumming fingers -> tambouriner des doigts 🤌
+dunking basketball -> dunker au basket-ball 🏀
+dying hair -> se teindre les cheveux 💇‍♀️
+eating burger -> manger un burger 🍔
+eating cake -> manger un gâteau 🍰
+eating carrots -> manger des carottes 🥕
+eating chips -> manger des chips 🍟
+eating doughnuts -> manger des beignets 🍩
+eating hotdog -> manger un hot-dog 🌭
+eating ice cream -> manger une glace 🍦
+eating spaghetti -> manger des spaghettis 🍝
+eating watermelon -> manger une pastèque 🍉
+egg hunting -> chasse aux œufs 🥚
+exercising arm -> exercer son bras 💪
+exercising with an exercise ball -> faire de l'exercice avec un ballon d'exercice 🤸‍♀️
+extinguishing fire -> éteindre un feu 🧯
+faceplanting -> faire un faceplant 🤕
+feeding birds -> nourrir les oiseaux 🐦
+feeding fish -> nourrir les poissons 🐠
+feeding goats -> nourrir les chèvres 🐐
+filling eyebrows -> remplir les sourcils ✍️
+finger snapping -> claquer des doigts 🤌
+fixing hair -> arranger ses cheveux 💇‍♀️
+flipping pancake -> retourner une crêpe 🥞
+flying kite -> faire voler un cerf-volant 🪁
+folding clothes -> plier les vêtements 👚
+folding napkins -> plier les serviettes 🍽️
+folding paper -> plier du papier 📃
+front raises -> élévations frontales 🏋️‍♂️
+frying vegetables -> faire frire des légumes 🍳
+garbage collecting -> ramasser les ordures 🗑️
+gargling -> se gargariser 🚰
+getting a haircut -> se faire couper les cheveux 💇‍♂️
+getting a tattoo -> se faire tatouer 💉
+giving or receiving award -> donner ou recevoir un prix 🏆
+golf chipping -> chipping au golf ⛳
+golf driving -> driving au golf 🏌️‍♂️
+golf putting -> putting au golf ⛳
+grinding meat -> hacher de la viande 🥩
+grooming dog -> toiletter un chien 🐕
+grooming horse -> toiletter un cheval 🐴
+gymnastics tumbling -> gymnastique au sol 🤸‍♀️
+hammer throw -> lancer du marteau 🏋️‍♂️
+headbanging -> headbanging 🤘
+headbutting -> donner un coup de tête 🤕
+high jump -> saut en hauteur 🤸‍♂️
+high kick -> coup de pied haut 🦵
+hitting baseball -> frapper une balle de baseball ⚾
+hockey stop -> arrêt de hockey 🏒
+holding snake -> tenir un serpent 🐍
+hopscotch -> marelle 👧
+hoverboarding -> hoverboard 🛹
+hugging -> câliner 🤗
+hula hooping -> faire du hula hoop 🤸‍♀️
+hurdling -> faire du saut de haies 🏃‍♀️
+hurling (sport) -> hurling (sport) ☘️
+ice climbing -> escalade de glace 🧊
+ice fishing -> pêche sur glace 🎣
+ice skating -> patinage sur glace ⛸️
+ironing -> repasser 👕
+javelin throw -> lancer du javelot 🏋️‍♂️
+jetskiing -> faire du jet ski 🌊
+jogging -> jogging 🏃‍♀️
+juggling balls -> jongler avec des balles 🤹
+juggling fire -> jongler avec du feu 🔥
+juggling soccer ball -> jongler avec un ballon de foot ⚽
+jumping into pool -> sauter dans la piscine 🏊‍♀️
+jumpstyle dancing -> jumpstyle 🕺
+kicking field goal -> coup de pied de placement 🏈
+kicking soccer ball -> frapper un ballon de foot ⚽
+kissing -> embrasser 💋
+kitesurfing -> kitesurf 🏄‍♀️
+knitting -> tricoter 🧶
+krumping -> krumping 🕺
+laughing -> rire 😂
+laying bricks -> poser des briques 🧱
+long jump -> saut en longueur 🤸‍♂️
+lunge -> fente 🦵
+making a cake -> faire un gâteau 🎂
+making a sandwich -> faire un sandwich 🥪
+making bed -> faire le lit 🛌
+making jewelry -> faire des bijoux 💍
+making pizza -> faire une pizza 🍕
+making snowman -> faire un bonhomme de neige ☃️
+making sushi -> faire des sushis 🍣
+making tea -> faire du thé 🍵
+marching -> marcher au pas 🪖
+massaging back -> masser le dos 💆‍♀️
+massaging feet -> masser les pieds 🦶
+massaging legs -> masser les jambes 🦵
+massaging person's head -> masser la tête de quelqu'un 💆‍♂️
+milking cow -> traire une vache 🐄
+mopping floor -> passer la serpillière 🧹
+motorcycling -> faire de la moto 🏍️
+moving furniture -> déplacer des meubles 🛋️
+mowing lawn -> tondre la pelouse 🚜
+news anchoring -> présenter les nouvelles 📰
+opening bottle -> ouvrir une bouteille 🍾
+opening present -> ouvrir un cadeau 🎁
+paragliding -> parapente 🪂
+parasailing -> parachute ascensionnel ⛱️
+parkour -> parkour 🤸‍♂️
+passing American football (in game) -> passer le football américain (en jeu) 🏈
+passing American football (not in game) -> passer le football américain (hors jeu) 🏈
+peeling apples -> peler des pommes 🍎
+peeling potatoes -> peler des pommes de terre 🥔
+petting animal (not cat) -> caresser un animal (pas un chat) 🐕
+petting cat -> caresser un chat 🐈
+picking fruit -> cueillir des fruits 🍎
+planting trees -> planter des arbres 🌳
+plastering -> plâtrer 🚧
+playing accordion -> jouer de l'accordéon 🪗
+playing badminton -> jouer au badminton 🏸
+playing bagpipes -> jouer de la cornemuse 🎶
+playing basketball -> jouer au basket-ball 🏀
+playing bass guitar -> jouer de la guitare basse 🎸
+playing cards -> jouer aux cartes 🃏
+playing cello -> jouer du violoncelle 🎻
+playing chess -> jouer aux échecs ♟️
+playing clarinet -> jouer de la clarinette 🎶
+playing controller -> jouer à la manette 🎮
+playing cricket -> jouer au cricket 🏏
+playing cymbals -> jouer des cymbales 🎶
+playing didgeridoo -> jouer du didgeridoo 🎶
+playing drums -> jouer de la batterie 🥁
+playing flute -> jouer de la flûte 🎶
+playing guitar -> jouer de la guitare 🎸
+playing harmonica -> jouer de l'harmonica 🎶
+playing harp -> jouer de la harpe 🎶
+playing ice hockey -> jouer au hockey sur glace 🏒
+playing keyboard -> jouer du clavier 🎹
+playing kickball -> jouer au kickball ⚽
+playing monopoly -> jouer au monopoly 🏘️
+playing organ -> jouer de l'orgue 🎶
+playing paintball -> jouer au paintball 🎯
+playing piano -> jouer du piano 🎹
+playing poker -> jouer au poker 🃏
+playing recorder -> jouer de la flûte à bec 🎶
+playing saxophone -> jouer du saxophone 🎷
+playing squash or racquetball -> jouer au squash ou au racquetball 🎾
+playing tennis -> jouer au tennis 🎾
+playing trombone -> jouer du trombone 🎶
+playing trumpet -> jouer de la trompette 🎺
+playing ukulele -> jouer du ukulélé 🎶
+playing violin -> jouer du violon 🎻
+playing volleyball -> jouer au volley-ball 🏐
+playing xylophone -> jouer du xylophone 🎶
+pole vault -> saut à la perche 🤸‍♂️
+presenting weather forecast -> présenter les prévisions météorologiques 🌤️
+pull ups -> tractions 🏋️‍♂️
+pumping fist -> poing en l'air ✊
+pumping gas -> faire le plein ⛽
+punching bag -> sac de frappe 🥊
+punching person (boxing) -> frapper une personne (boxe) 🥊
+push up -> pompes 🤸‍♂️
+pushing car -> pousser une voiture 🚗
+pushing cart -> pousser un chariot 🛒
+pushing wheelchair -> pousser un fauteuil roulant ♿
+reading book -> lire un livre 📖
+reading newspaper -> lire un journal 📰
+recording music -> enregistrer de la musique 🎧
+riding a bike -> faire du vélo 🚴‍♀️
+riding camel -> monter à dos de chameau 🐪
+riding elephant -> monter à dos d'éléphant 🐘
+riding mechanical bull -> monter un taureau mécanique 🐂
+riding mountain bike -> faire du VTT 🚵‍♀️
+riding mule -> monter une mule 🐴
+riding or walking with horse -> monter à cheval ou marcher avec un cheval 🐴
+riding scooter -> faire de la trottinette 🛴
+riding unicycle -> faire du monocycle 🎪
+ripping paper -> déchirer du papier 📃
+robot dancing -> danse robotique 🤖
+rock climbing -> escalade 🧗‍♀️
+rock scissors paper -> pierre feuille ciseaux ✊
+roller skating -> faire du roller 🛼
+running on treadmill -> courir sur un tapis de course 🏃‍♀️
+sailing -> faire de la voile ⛵
+salsa dancing -> danse salsa 💃
+sanding floor -> poncer le sol ⚙️
+scrambling eggs -> brouiller des œufs 🍳
+scuba diving -> plongée sous-marine 🤿
+setting table -> mettre la table 🍽️
+shaking hands -> serrer la main 🤝
+shaking head -> secouer la tête 🙅‍♀️
+sharpening knives -> aiguiser les couteaux 🔪
+sharpening pencil -> tailler un crayon ✏️
+shaving head -> se raser la tête 👨‍🦲
+shaving legs -> se raser les jambes 🪒
+shearing sheep -> tondre les moutons 🐑
+shining shoes -> cirer les chaussures 👞
+shooting basketball -> lancer au basket-ball 🏀
+shooting goal (soccer) -> marquer un but (football) ⚽
+shot put -> lancer du poids 🏋️‍♂️
+shoveling snow -> pelleter la neige 🌨️
+shredding paper -> déchiqueter du papier ⚙️
+shuffling cards -> mélanger les cartes 🃏
+side kick -> coup de pied latéral 🦵
+sign language interpreting -> interprétation en langue des signes 🤟
+singing -> chanter 🎤
+situp -> redressement assis 🤸‍♂️
+skateboarding -> faire du skateboard 🛹
+ski jumping -> saut à ski ⛷️
+skiing (not slalom or crosscountry) -> ski (pas slalom ni ski de fond) 🎿
+skiing crosscountry -> ski de fond 🎿
+skiing slalom -> ski slalom ⛷️
+skipping rope -> sauter à la corde 👧
+skydiving -> parachutisme 🪂
+slacklining -> slackline 🤸‍♀️
+slapping -> gifler 🖐️
+sled dog racing -> course de chiens de traîneau 🐕
+smoking -> fumer 🚬
+smoking hookah -> fumer la chicha 💨
+snatch weight lifting -> arraché (haltérophilie) 🏋️‍♂️
+sneezing -> éternuer 🤧
+sniffing -> renifler 👃
+snorkeling -> plongée avec tuba 🤿
+snowboarding -> snowboard 🏂
+snowkiting -> snowkite 🪁
+snowmobiling -> motoneige 🏍️
+somersaulting -> faire des sauts périlleux 🤸‍♂️
+spinning poi -> faire tourner des poi 🔥
+spray painting -> peinture à la bombe 🎨
+spraying -> vaporiser 🚿
+springboard diving -> plongeon sur tremplin 🏊‍♀️
+squat -> squat 🏋️‍♂️
+sticking tongue out -> tirer la langue 👅
+stomping grapes -> fouler le raisin 🍇
+stretching arm -> étirer le bras 💪
+stretching leg -> étirer la jambe 🦵
+strumming guitar -> gratter la guitare 🎸
+surfing crowd -> surfing sur la foule 🏄‍♂️
+surfing water -> surfing sur l'eau 🏄‍♀️
+sweeping floor -> balayer le sol 🧹
+swimming backstroke -> nager le dos crawlé 🏊‍♀️
+swimming breast stroke -> nager la brasse 🏊‍♀️
+swimming butterfly stroke -> nager le papillon 🏊‍♀️
+swing dancing -> danse swing 💃
+swinging legs -> balancer les jambes 🦵
+swinging on something -> se balancer sur quelque chose 👧
+sword fighting -> combat à l'épée ⚔️
+tai chi -> tai-chi 🧘‍♀️
+taking a shower -> prendre une douche 🚿
+tango dancing -> danse tango 💃
+tap dancing -> claquettes 💃
+tapping guitar -> taper sur la guitare 🎸
+tapping pen -> taper du stylo ✍️
+tasting beer -> goûter de la bière 🍺
+tasting food -> goûter de la nourriture 😋
+testifying -> témoigner 🗣️
+texting -> envoyer des SMS 📱
+throwing axe -> lancer de hache 🪓
+throwing ball -> lancer une balle 🥎
+throwing discus -> lancer du disque 🏋️‍♂️
+tickling -> chatouiller 🤭
+tobogganing -> faire de la luge 🛷
+tossing coin -> lancer une pièce 🪙
+tossing salad -> mélanger une salade 🥗
+training dog -> dresser un chien 🐕
+trapezing -> trapèze 🎪
+trimming or shaving beard -> tailler ou raser la barbe 🧔
+trimming trees -> tailler les arbres 🌳
+triple jump -> triple saut 🤸‍♂️
+tying bow tie -> nouer un nœud papillon 👔
+tying knot (not on a tie) -> faire un nœud (pas sur une cravate) 🪢
+tying tie -> nouer une cravate 👔
+unboxing -> déballer 📦
+unloading truck -> décharger un camion 🚚
+using computer -> utiliser un ordinateur 💻
+using remote controller (not gaming) -> utiliser une télécommande (pas pour les jeux) 🕹️
+using segway -> utiliser un segway 🛴
+vault -> saut de cheval 🤸‍♂️
+waiting in line -> faire la queue 🧍‍♀️
+walking the dog -> promener le chien 🐕
+washing dishes -> faire la vaisselle 🍽️
+washing feet -> laver les pieds 🦶
+washing hair -> laver les cheveux 🚿
+washing hands -> laver les mains 🧼
+water skiing -> ski nautique 🏄‍♀️
+water sliding -> toboggan aquatique 🏞️
+watering plants -> arroser les plantes 🪴
+waxing back -> épilation du dos à la cire 💆‍♂️
+waxing chest -> épilation de la poitrine à la cire 💆‍♂️
+waxing eyebrows -> épilation des sourcils à la cire 💆‍♀️
+waxing legs -> épilation des jambes à la cire 💆‍♀️
+weaving basket -> tresser un panier 🧺
+welding -> souder 🧰
+whistling -> siffler 😙
+windsurfing -> planche à voile 🏄‍♀️
+wrapping present -> emballer un cadeau 🎁
+wrestling -> lutte 🤼‍♂️
+writing -> écrire ✍️
+yawning -> bâiller 🥱
+yoga -> yoga 🧘‍♀️
+zumba -> zumba 💃
