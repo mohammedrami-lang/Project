@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/favion.svg') }}"  type="image/svg+xml">
+
+    <title>Reconnaissance d'Actions Humaines par IA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header id="hero">
+        <video id="hero-video" autoplay muted loop playsinline poster="{{ url_for('static', filename='videos/back.mp4') }}">
+    <source src="{{ url_for('static', filename='videos/back.mp4') }}" type="video/mp4">
+    Votre navigateur ne supporte pas la balise vidéo.
+</video>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div class="hero-top" id="heroLogoContainer">
+                <!-- Logo SVG et texte comme dans votre HTML original -->
+                <svg class="logo-icon" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0 L17.071 2.929 L20 10 L17.071 17.071 L10 20 L2.929 17.071 L0 10 L2.929 2.929 Z" fill="currentColor"/>
+                </svg>
+                <span class="logo-name">Oussama & Rami</span>
+            </div>
+
+            <div class="hero-middle" id="heroMainText">
+                <h1 class="main-heading">
+                    Reconnaissance d'Actions<br>
+                    Humaines<br>
+                    <span class="accent-text">par IA</span>
+                </h1>
+                <p class="sub-heading">
+                    Analyse Vidéo Intelligente : Détectez les Mouvements en Temps Réel
+                </p>
+            </div>
+
+            <div class="hero-bottom">
+                <a href="#upload-tool-section" class="cta-button">Commencer</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="deep-learning-intro" class="section-padding text-center">
+            <div class="container">
+                <h2 class="section-title">Analyse Vidéo Intelligente par Deep Learning</h2>
+                <p class="section-paragraph">Grâce à notre solution basée sur l'intelligence artificielle, détectez et reconnaissez automatiquement les actions humaines dans vos vidéos. Qu'il s'agisse de marcher, courir, sauter ou frapper, notre système analyse chaque mouvement avec précision pour vous fournir une interprétation claire et rapide, directement depuis votre navigateur.</p>
+            </div>
+        </section>
+
+        <section id="what-we-offer" class="section-padding section-with-video-bg">
+               <video id="hero-video" autoplay muted loop playsinline poster="{{ url_for('static', filename='videos/back.mp4') }}">
+    <source src="{{ url_for('static', filename='videos/back.mp4') }}" type="video/mp4">
+</video>
+            <div class="section-bg-overlay"></div>
+            <div class="container two-columns section-content-ontop">
+                <div class="column-image">
+                    <img src="{{ url_for('static', filename='images/3.gif') }}" alt="Illustration de l'analyse vidéo" class="section-gif">
+                </div>
+                <div class="column-text">
+                    <h2 class="section-title"><i class="fas fa-tools icon-highlight"></i> Ce que notre application vous offre :</h2>
+                    <ul class="styled-list">
+                        <li>Détection automatique des actions humaines telles que marcher, courir, sauter, frapper, etc.</li>
+                        <li>Traitement efficace et résultats disponibles en quelques secondes.</li>
+                        <li>Utilisation via un simple navigateur, sans installation requise.</li>
+                        <li>Vos vidéos restent confidentielles et ne sont jamais partagées.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="advanced-tech" class="section-padding">
+            <div class="container two-columns reverse-columns">
+                <div class="column-image">
+                    <img src="{{ url_for('static', filename='images/4.gif') }}" alt="Illustration de technologie avancée" class="section-gif">
+                </div>
+                <div class="column-text">
+                    <h2 class="section-title"><i class="fas fa-cogs icon-highlight"></i> Une technologie avancée à votre service :</h2>
+                    <ul class="styled-list">
+                        <li>Prétraitement de la vidéo pour en extraire les images clés.</li>
+                        <li>Extraction des caractéristiques à l'aide d'un réseau de neurones convolutif (CNN).</li>
+                        <li>Reconnaissance des séquences d'actions avec un modèle LSTM ou GRU.</li>
+                        <li>Affichage des résultats dans une interface claire, montrant chaque action détectée avec son horodatage.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="section-padding section-with-video-bg">
+                <video id="hero-video" autoplay muted loop playsinline poster="{{ url_for('static', filename='videos/back.mp4') }}">
+    <source src="{{ url_for('static', filename='videos/back.mp4') }}" type="video/mp4">
+    Votre navigateur ne supporte pas la balise vidéo.
+</video>
+            <div class="section-bg-overlay"></div>
+            <div class="container two-columns section-content-ontop">
+                <div class="column-image">
+                    <img src="{{ url_for('static', filename='images/5.gif') }}" alt="Illustration des avantages" class="section-gif">
+                </div>
+                <div class="column-text">
+                    <h2 class="section-title"><i class="fas fa-question-circle icon-highlight"></i> Pourquoi utiliser notre outil ?</h2>
+                    <ul class="features-list">
+                        <li><i class="fas fa-bullseye feature-icon"></i> Précision élevée dans la détection des mouvements.</li>
+                        <li><i class="fas fa-desktop feature-icon"></i> Accessible depuis un navigateur sans installation complexe.</li>
+                        <li><i class="fas fa-stopwatch feature-icon"></i> Gagnez du temps grâce à une analyse rapide et automatisée.</li>
+                        <li><i class="fas fa-shield-alt feature-icon"></i> Respect de la vie privée : Vos vidéos sont traitées localement et de manière sécurisée.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="upload-tool-section" class="section-padding">
+            <div class="container text-center">
+                <h2 class="section-title" style="justify-content: center;">Testez Notre Analyseur d'Actions</h2>
+               <p class="section-paragraph" style="margin-bottom: var(--spacing-large);">
+                    Prêt à voir notre IA en action ? Choisissez une courte vidéo (10 secondes maximum) depuis votre appareil. 
+                    Notre système analysera les mouvements et vous présentera les actions détectées. 
+                    Si vous n'avez pas de vidéo sous la main, vous pouvez trouver des exemples de vidéos de test adaptées sur 
+                    <a style="color: brown;   text-decoration: underline;" href="https://www.kaggle.com/datasets/rohanmallick/kinetics-train-5per?resource=download" target="_blank" rel="noopener noreferrer" class="external-link">
+                        Kaggle (Kinetics Dataset Samples)
+                    </a>.
+                </p>
+
+                <div class="upload-section">
+                    <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data" class="upload-form">
+                        <label for="videoInput" class="file-input-label">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <span>Choisir une vidéo (max 10s)</span>
+                        </label>
+                        <input type="file" name="video" id="videoInput" accept="video/*" required>
+                        <span id="fileNameDisplay" class="file-name-display">Aucun fichier sélectionné</span>
+                        <button type="submit" id="submitBtn" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            <!-- MODIFIÉ: Ajout d'un span pour le texte du bouton -->
+                            <span id="submitBtnText">Envoyer</span>
+                        </button>
+                    </form>
+                
+                    <p id="errorMsg" class="error-message" style="display:none;"></p>
+                
+                    <div id="countdown" class="countdown-message" style="display:none;">
+                        <div class="spinner"></div>
+                        <p>Traitement de la vidéo en cours... Veuillez patienter <span id="timer">30</span> secondes.</p>
+                    </div>
+                
+                    <button id="showResultBtn" class="btn btn-success" style="display:none;" onclick="window.location.href='/result'">
+                        <i class="fas fa-poll"></i> Afficher le résultat
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                   <!-- Utilise la classe footer-logo-img pour le style -->
+                   <img src="{{ url_for('static', filename='images/logoSITE.png') }}" alt="Logo Kinnectric et Université" class="footer-logo-img">
+                </div>
+                <div class="footer-uni">
+                    <p><strong>UNIVERSITE MOHAMMED V</strong></p>
+                    <p>FACULTE DES SCIENCES</p>
+                    <p>Master en Réseaux et Télécommunications</p>
+                </div>
+            </div>
+            <div class="footer-credits">
+                <p><strong>PROFESSEUR:</strong> Abdelhak Mahmoudi</p>
+                <p><strong>Présenté par :</strong></p>
+                <p>LEKHAL OUSSAMA </p>
+                <p>RAMI MOHAMMED </p>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+   
+<script>
+    const videoInput = document.getElementById('videoInput');
+    const submitBtn = document.getElementById('submitBtn');
+    const errorMsg = document.getElementById('errorMsg');
+    const form = document.getElementById('uploadForm');
+    const countdownDiv = document.getElementById('countdown');
+    const timerSpan = document.getElementById('timer');
+    const showResultBtn = document.getElementById('showResultBtn');
+    const fileNameDisplay = document.getElementById('fileNameDisplay');
+    const submitBtnText = document.getElementById('submitBtnText'); // MODIFIÉ: Référence au span du texte du bouton
+
+    submitBtn.disabled = true;
+
+    videoInput.addEventListener('change', () => {
+      errorMsg.style.display = 'none'; 
+      submitBtn.disabled = true; 
+
+      const file = videoInput.files[0];
+      if (!file) {
+        fileNameDisplay.textContent = 'Aucun fichier sélectionné';
+        return;
+      }
+
+      fileNameDisplay.textContent = file.name; 
+
+      const allowedExtensions = /(\.mp4|\.mov|\.avi|\.mkv)$/i;
+      if (!allowedExtensions.exec(file.name)) {
+          errorMsg.textContent = "Format de fichier non supporté. Utilisez mp4, mov, avi, mkv.";
+          errorMsg.style.display = 'block';
+          videoInput.value = ''; 
+          fileNameDisplay.textContent = 'Aucun fichier sélectionné';
+          return;
+      }
+
+      const videoElement = document.createElement('video');
+      videoElement.preload = 'metadata';
+
+      videoElement.onloadedmetadata = () => {
+        window.URL.revokeObjectURL(videoElement.src); 
+        const duration = videoElement.duration;
+
+         if (duration > 11) { 
+           errorMsg.textContent = "Erreur : la vidéo dépasse 10 secondes.";
+           errorMsg.style.display = 'block';
+           videoInput.value = ''; 
+           fileNameDisplay.textContent = 'Aucun fichier sélectionné';
+         } else {
+           submitBtn.disabled = false; 
+         }
+      };
+
+      videoElement.onerror = () => {
+        window.URL.revokeObjectURL(videoElement.src); 
+        errorMsg.textContent = "Erreur lors du chargement des métadonnées de la vidéo.";
+        errorMsg.style.display = 'block';
+        videoInput.value = ''; 
+        fileNameDisplay.textContent = 'Aucun fichier sélectionné';
+      };
+
+      videoElement.src = URL.createObjectURL(file);
+    });
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault(); 
+
+      if (!videoInput.files || videoInput.files.length === 0 || submitBtn.disabled) {
+          errorMsg.textContent = "Veuillez sélectionner un fichier vidéo valide avant d'envoyer.";
+          errorMsg.style.display = 'block';
+          return; 
+      }
+      
+      const formData = new FormData(form);
+
+      // MODIFIÉ: Mise à jour de l'UI avant l'envoi
+      submitBtn.disabled = true;
+      submitBtnText.textContent = 'Envoi en cours...'; // Changement du texte du bouton
+      videoInput.disabled = true; 
+      countdownDiv.style.display = 'none'; // S'assurer que le grand compteur est caché initialement
+      showResultBtn.style.display = 'none'; 
+      errorMsg.style.display = 'none'; 
+
+      fetch('/upload', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => {
+        if (!response.ok) {
+          return response.text().then(text => { throw new Error(text || `Erreur serveur: ${response.status}`) });
+        }
+        return response.text(); 
+      })
+      .then(data => {
+        console.log("Réponse du serveur après upload et traitement:", data);
+        
+        // MODIFIÉ: Cacher le bouton Envoyer et afficher le grand compteur maintenant
+        submitBtn.style.display = 'none'; 
+        countdownDiv.style.display = 'flex'; 
+
+        let timeLeft = 30; 
+        timerSpan.textContent = timeLeft;
+        
+        const interval = setInterval(() => {
+          timeLeft--;
+          timerSpan.textContent = timeLeft;
+          if (timeLeft <= 0) {
+            clearInterval(interval);
+            countdownDiv.style.display = 'none'; 
+            showResultBtn.style.display = 'inline-flex'; 
+            
+            // Réinitialiser pour une nouvelle soumission
+            submitBtn.style.display = 'inline-flex'; // Réafficher le bouton Envoyer
+            submitBtnText.textContent = 'Envoyer';   // Réinitialiser son texte
+            submitBtn.disabled = true; 
+            videoInput.disabled = false; 
+            videoInput.value = ''; 
+            fileNameDisplay.textContent = 'Aucun fichier sélectionné';
+          }
+        }, 1000);
+      })
+      .catch(error => {
+        console.error("Erreur lors de l'upload ou du traitement:", error);
+        errorMsg.textContent = `Erreur: ${error.message}`;
+        errorMsg.style.display = 'block';
+        
+        // Réinitialiser l'interface en cas d'erreur
+        countdownDiv.style.display = 'none';
+        submitBtn.style.display = 'inline-flex'; // Réafficher le bouton Envoyer
+        submitBtnText.textContent = 'Envoyer';   // Réinitialiser son texte
+        submitBtn.disabled = (videoInput.files[0] ? false : true); // Activer si un fichier est toujours là
+        videoInput.disabled = false;
+      });
+    });
+</script>
+</body>
+</html>

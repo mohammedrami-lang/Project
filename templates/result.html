@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinnectric - Résultats de l'Analyse Vidéo</title>
+    <!-- Utilisation du même fichier CSS que la page principale -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Font Awesome (déjà inclus dans votre page principale, mais bon de le rappeler ici) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts (déjà inclus dans votre page principale) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles spécifiques pour cette page (peuvent aussi être dans style.css) -->
+    <style>
+        body.results-page {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a; /* Fond sombre similaire à la page d'accueil */
+            color: #e2e8f0; /* Texte clair */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .results-header {
+            width: 100%;
+            background-color: rgba(16, 24, 40, 0.8); /* Un peu plus clair que le body, ou un header distinct */
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+
+        .results-header .logo-results img {
+            height: 50px; /* Ajuster la taille du logo */
+            width: auto;
+        }
+
+        .results-container {
+            background-color: #1e293b; /* Fond de la carte de résultats, un peu plus clair que le body */
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 700px; /* Limiter la largeur pour la lisibilité */
+            margin-bottom: 40px;
+        }
+
+        .results-container h1 {
+            color: #7dd3fc; /* Bleu clair pour le titre, comme sur la page d'accueil */
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+         .results-container .video-name-display {
+            text-align: center;
+            font-size: 1.1em;
+            color: #94a3b8; /* Gris clair pour le nom de la vidéo */
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+
+        .results-list-container p.intro-text {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 25px;
+            color: #cbd5e1;
+        }
+
+        .results-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .result-item {
+            background-color: rgba(255, 255, 255, 0.05); /* Fond très subtil pour chaque item */
+            padding: 18px 25px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 5px solid #38bdf8; /* Accent de couleur */
+            transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
+
+        .result-item:hover {
+            transform: translateX(5px);
+            background-color: rgba(255, 255, 255, 0.08);
+        }
+
+        .result-item .action-label {
+            font-weight: 600;
+            font-size: 1.2em;
+            color: #f1f5f9; /* Texte principal de l'action */
+        }
+        
+        .result-item .action-label i {
+            margin-right: 10px;
+            color: #7dd3fc; /* Couleur de l'icône */
+        }
+
+        .result-item .action-probability {
+            font-size: 1.1em;
+            font-weight: 500;
+            color: #5eead4; /* Couleur pour la probabilité (turquoise/vert) */
+            background-color: rgba(45, 212, 191, 0.1);
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+
+        .result-error-message {
+            color: #f87171; /* Rouge clair pour erreur */
+            background-color: rgba(248, 113, 113, 0.1);
+            border: 1px solid rgba(248, 113, 113, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+         .result-error-message i {
+            margin-right: 8px;
+         }
+
+        .back-button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* Réutilisation du style .btn de la page principale si possible, sinon redéfinir ici */
+        .btn-results-back {
+            display: inline-flex;
+            align-items: center;
+            padding: 12px 30px;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #e2e8f0;
+            background-color: #3b82f6; /* Bleu pour le bouton retour */
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        .btn-results-back:hover {
+            background-color: #2563eb;
+            transform: translateY(-2px);
+        }
+        .btn-results-back i {
+            margin-right: 8px;
+        }
+
+        .results-footer {
+            margin-top: auto; /* Pousse le footer en bas si le contenu est court */
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9em;
+            color: #64748b; /* Gris pour le texte du footer */
+            background-color: rgba(16, 24, 40, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .results-container {
+                width: 95%;
+                padding: 20px;
+            }
+            .results-container h1 {
+                font-size: 1.8em;
+            }
+            .result-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+            .result-item .action-probability {
+                align-self: flex-end;
+            }
+        }
+
+    </style>
+</head>
+<body class="results-page">
+
+    <header class="results-header">
+        <div class="logo-results">
+            <!-- Vous pouvez réutiliser votre logo ici -->
+            <a href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='images/logoSITE.png') }}" alt="Kinnectric Logo">
+            </a>
+        </div>
+    </header>
+
+    <main class="results-container">
+        <h1><i class="fas fa-chart-line"></i> Résultats de l'Analyse</h1>
+        <p class="video-name-display">Vidéo : "{{ video_name | default('Non spécifiée') }}"</p>
+
+        {% if results and results.error %}
+            <div class="result-error-message">
+                <i class="fas fa-exclamation-triangle"></i> Erreur lors du traitement : {{ results.error }}
+            </div>
+        {% elif results and results.predictions and results.predictions|length > 0 %}
+            <div class="results-list-container">
+                <p class="intro-text">Voici les actions les plus probables détectées dans votre vidéo :</p>
+                <ul class="results-list">
+                    {% for prediction in results.predictions %}
+                        <li class="result-item">
+                            <span class="action-label">
+                                <!-- Optionnel : Mettre une icône par défaut ou en fonction du label si vous avez un mapping -->
+                                <i class="fas fa-running"></i> <!-- Exemple d'icône, à adapter -->
+                                {{ prediction.label | capitalize }}
+                            </span>
+                            <span class="action-probability">{{ prediction.probability }}</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% elif results and results.predictions and results.predictions|length == 0 %}
+             <div class="result-error-message">
+                <i class="fas fa-info-circle"></i> Aucune action spécifique n'a pu être identifiée avec une confiance suffisante.
+            </div>
+        {% else %}
+            <div class="result-error-message">
+                <i class="fas fa-question-circle"></i> Aucun résultat à afficher ou une erreur inconnue s'est produite.
+            </div>
+        {% endif %}
+
+        <div class="back-button-container">
+            <a href="{{ url_for('index') }}" class="btn-results-back">
+                <i class="fas fa-arrow-left"></i> Retour à l'accueil
+            </a>
+        </div>
+    </main>
+
+    <footer class="results-footer">
+        <p>© {{ current_year }} Kinnectric. Tous droits réservés.</p>
+        <p>Projet de Master - Université Mohammed V</p>
+    </footer>
+
+</body>
+</html>
